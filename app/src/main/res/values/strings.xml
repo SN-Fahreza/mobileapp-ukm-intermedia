@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Intermedia</string>
+    <string-array name="divisi_array">
+        <item>--Pilih Divisi--</item>
+        <item>Programming</item>
+        <item>Multimedia</item>
+        <item>Networking Support</item>
+    </string-array>
+    <string-array name="pertemuan_array">
+        <item>--Pilih Pertemuan--</item>
+        <item>Pertemuan 1</item>
+        <item>Pertemuan 2</item>
+        <item>Pertemuan 3</item>
+        <item>Pertemuan 4</item>
+        <item>Pertemuan 5</item>
+        <item>Pertemuan 6</item>
+        <item>Pertemuan 7</item>
+    </string-array>
+    <string name="adsUnit">ca-app-pub-1441458545788531/9821578100</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="admob_id">ca-app-pub-1441458545788531~1310880308</string>
+    <string name="rewarded_ads">ca-app-pub-1441458545788531/5259779894</string>
+</resources>

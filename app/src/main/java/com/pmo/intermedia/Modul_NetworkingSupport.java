@@ -1,0 +1,34 @@
+package com.pmo.intermedia;
+
+import androidx.appcompat.app.ActionBar;
+import androidx.appcompat.app.AppCompatActivity;
+
+import android.os.Bundle;
+
+import com.github.barteksc.pdfviewer.PDFView;
+
+public class Modul_NetworkingSupport extends AppCompatActivity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_modul_networking_support);
+
+        PDFView pdfView = findViewById(R.id.pdfViewNS);
+        pdfView.fromAsset("modul_ns.pdf")
+                .enableSwipe(true)
+                .enableDoubletap(true)
+                .load();
+
+    }
+    @Override
+    public boolean onSupportNavigateUp() {
+        onBackPressed();
+        return true;
+    }
+
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+    }
+}

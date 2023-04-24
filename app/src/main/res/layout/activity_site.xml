@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".Site">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="FOLLOW US!"
+        android:textColor="@color/abu"
+        android:fontFamily="@font/poppins_bold"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:paddingTop="30dp"
+        android:layout_marginTop="20dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Social Media dari UKM Intermedia"
+        android:textColor="@color/abu"
+        android:fontFamily="@font/poppins_medium"
+        android:textSize="14sp"
+        android:gravity="center"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="30dp">
+        <Button
+            android:id="@+id/tiktok"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_marginTop="20dp"
+            android:drawableLeft="@drawable/tt"
+            android:text="TIKTOK"
+            android:fontFamily="@font/poppins_bold"
+            android:textSize="24sp"/>
+        <Button
+            android:id="@+id/instagram"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_marginTop="20dp"
+            android:drawableLeft="@drawable/ig"
+            android:text="INSTAGRAM"
+            android:fontFamily="@font/poppins_bold"
+            android:textSize="24sp"/>
+        <Button
+            android:id="@+id/youtube"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_marginTop="20dp"
+            android:drawableLeft="@drawable/yt"
+            android:text="YOUTUBE"
+            android:fontFamily="@font/poppins_bold"
+            android:textSize="24sp"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Copyright 2022"
+        android:fontFamily="@font/poppins_medium"
+        android:textSize="12sp"
+        android:textColor="@color/abu"
+        android:layout_marginTop="50dp"
+        android:gravity="center"/>
+
+</LinearLayout>

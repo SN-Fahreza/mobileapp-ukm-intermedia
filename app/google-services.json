@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1065914409389",
+    "firebase_url": "https://intermedia-8e7e3-default-rtdb.firebaseio.com",
+    "project_id": "intermedia-8e7e3",
+    "storage_bucket": "intermedia-8e7e3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1065914409389:android:56ec088ca052d8c9ebc124",
+        "android_client_info": {
+          "package_name": "com.pmo.intermedia"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1065914409389-qqmsk7lslvi5mj5ruflol13knhbbl6t7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAPER_qZQk9uQFA9W-fbwpsKAtRemVdHtQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1065914409389-qqmsk7lslvi5mj5ruflol13knhbbl6t7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
